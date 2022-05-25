@@ -1,0 +1,19 @@
+package com.java8.examples;
+
+import java.lang.invoke.MethodHandles;
+
+public class Dynamic7 {
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MethodHandle.Lookup methodHandler=MethodHandle.lookup();
+
+	}
+
+}

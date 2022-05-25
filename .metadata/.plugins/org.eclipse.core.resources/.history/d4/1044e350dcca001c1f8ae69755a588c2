@@ -1,0 +1,17 @@
+package com.java8.examples;
+
+public class StringExample {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		String sample=new String("Nitin");
+		
+		smaple.concat("More");
+		
+		System.out.println("print orgin="+sample);
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.java8.examples;
+
+import java.lang.reflect.Constructor;
+
+public class DynamicClass {
+
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) throws NoSuchMethodException, SecurityException {
+		// TODO Auto-generated method stub
+		
+		Class<FirstExample> firstExample =FirstExample.class;
+		
+		Constructor<FirstExample>  constref=    firstExample.getConstructor(null);
+		constref.newInstance();
+		
+	}
+
+}

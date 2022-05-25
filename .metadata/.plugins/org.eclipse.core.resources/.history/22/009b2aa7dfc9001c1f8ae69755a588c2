@@ -1,0 +1,21 @@
+package com.java8.examples;
+
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+
+public class Dynamic7 {
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MethodHandles.Lookup methodHandler=MethodHandles.lookup();
+		MethodHandles mc=	methodHandler.findVirtual(FirstExample.class, "x", MethodType.methodType(void.class));
+
+	}
+
+}

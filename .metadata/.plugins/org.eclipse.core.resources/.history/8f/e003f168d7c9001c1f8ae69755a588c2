@@ -1,0 +1,19 @@
+package com.java8.examples;
+
+public class DynamicClass {
+
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Class<FirstExample> firstExample =FirstExample.class;
+		
+		firstExample.getConstructor(null);
+	}
+
+}

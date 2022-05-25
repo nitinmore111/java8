@@ -1,0 +1,26 @@
+package com.java8.examples;
+
+public class FirstExample {
+	
+	
+	
+	
+	public FirstExample(){
+		
+		
+	}
+	
+	public void x()
+	{
+		
+		System.out.println("---X----");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}
